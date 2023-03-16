@@ -34,8 +34,8 @@ $bgColor: white;
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
-  padding-right: 60px;
-  width: 400px;
+  padding-right: 20px;
+  // width: 550px;
 
   //  margin-left: 20px;
 }
@@ -55,10 +55,7 @@ $bgColor: white;
   // padding-bottom: 2px;
   color: $headingColor;
 }
-.divider {
-  border: solid gray 1px;
-  margin-bottom: 8px;
-}
+
 ul {
   text-decoration: none;
   list-style: none;
@@ -122,26 +119,56 @@ li {
   overflow-y: scroll;
 }
 
-.layout{
+.layout {
   display: flex;
   flex-direction: column;
   padding-left: 10px;
   padding-top: 5px;
   justify-content: flex-start;
 }
-.dividerDiv{
+.dividerDiv {
   display: grid;
   // flex-direction: column;
   grid-template-columns: auto auto;
   grid-gap: 15px;
-  padding-bottom:20px;
-  
-
+  padding-bottom: 20px;
 }
 .dividerExample1,
 .dividerExample2,
-.dividerExample3{
+.dividerExample3 {
   @include divStyle();
   height: 300px;
   overflow-y: auto;
 }
+
+
+
+.gridExample1,
+.gridExample2,
+.gridExample3,
+.gridExample4 {
+  @include divStyle();
+  width: fit-content !important;
+  text-align: center;
+}
+.bg-blue {
+  background-color: #1677ff;
+  margin: 10px;
+  padding: 10px;
+  width: 1000px;
+  // justify-content: center;
+  text-align: center;
+  // color: white;
+
+}
+.bg-blue1{
+  background-color: #629ff4;
+  margin: 10px;
+  padding: 10px;
+  width: 1000px;
+  // justify-content: center;
+  text-align: center;
+  // color: white;
+}
+
+
