@@ -21,6 +21,10 @@ const Navigation = () => {
             <li>
               <Link href="/typography">Typography</Link>
             </li>
+            <p className="heading">
+              Layout
+            </p>
+            <div className="divider"></div>
           </div>
         </ul>
       </div>

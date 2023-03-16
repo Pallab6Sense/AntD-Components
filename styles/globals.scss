@@ -112,6 +112,10 @@ li {
 }
 .typographyExample1,
 .typographyExample2,
-.typographyExample3 {
+.typographyExample3,
+.typographyExample4 {
   @include divStyle();
+  height: 300px !important;
+
+  overflow-y: scroll;
 }
