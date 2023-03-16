@@ -66,11 +66,11 @@ ul {
 }
 
 li {
-  padding:10px;
+  padding: 10px;
   margin-bottom: 5px;
   border-radius: 10px;
   width: fit-content;
-  background-color:#e6f4ff;
+  background-color: #e6f4ff;
   color: #1677ff;
   text-decoration: none;
 }
@@ -95,16 +95,16 @@ li {
   @include divStyle();
 }
 
-.typoContainer{
-  display:flex;
+.typoContainer {
+  display: flex;
   flex-wrap: wrap;
 }
 
-.para-graph{
+.para-graph {
   width: 300px;
   text-align: center;
 }
-.slider{
+.slider {
   width: 800px;
   text-align: center;
   font-family: $fontSecondary;
@@ -114,5 +114,4 @@ li {
 .typographyExample2,
 .typographyExample3 {
   @include divStyle();
- 
 }
