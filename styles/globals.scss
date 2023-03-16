@@ -34,6 +34,14 @@ $fontColor: black;
   padding-top: 10px;
   justify-content: flex-start;
 }
+.heading{
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.divider{
+  border: solid gray 1px;
+
+}
 ul {
   text-decoration: none;
   list-style: none;
@@ -46,6 +54,9 @@ li {
   padding-bottom: 3px;
   padding-left: 10px;
 }
+.li :hover{
+  color: rgb(51, 141, 237);
+}
 .btnExample1,
 .btnExample2,
 .btnExample3,
@@ -55,6 +66,15 @@ li {
 .btnExample7,
 .btnExample8,
 .btnExample9  {
+  border: solid gray 1px;
+  padding: 15px;
+  margin: 10px;
+  height: fit-content;
+}
+
+.iconExample1,
+.iconExample2,
+.iconExample3  {
   border: solid gray 1px;
   padding: 15px;
   margin: 10px;
