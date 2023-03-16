@@ -1,6 +1,7 @@
 $fontPrimary: 'Roboto';
 $fontSize: 15px;
 $fontColor: black;
+$headingColor:gray;
 * {
   box-sizing: border-box;
   padding: 0;
@@ -8,6 +9,7 @@ $fontColor: black;
   font-size: $fontSize;
   font-family: $fontPrimary;
   color: $fontColor;
+  font-family: $fontPrimary;
 }
 .container {
   display: flex;
@@ -37,9 +39,12 @@ $fontColor: black;
 .heading{
   padding-top: 8px;
   padding-bottom: 8px;
+  color: $headingColor;
+
 }
 .divider{
   border: solid gray 1px;
+  margin-bottom: 8px;
 
 }
 ul {
