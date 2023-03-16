@@ -1,7 +1,18 @@
 $fontPrimary: 'Roboto';
+$fontSecondary: 'Arial';
 $fontSize: 15px;
 $fontColor: black;
-$headingColor:gray;
+$headingColor: gray;
+$bgColor: white;
+
+@mixin divStyle {
+  border: solid gray 1px;
+  padding: 15px;
+  margin: 10px;
+  height: fit-content;
+  width: fit-content;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -16,6 +27,8 @@ $headingColor:gray;
   // flex-direction: column;
   margin-top: 20px;
   margin-left: 20px;
+  width: fit-content;
+  // flex-wrap: wrap;
 }
 .navContainer {
   display: flex;
@@ -36,16 +49,14 @@ $headingColor:gray;
   padding-top: 10px;
   justify-content: flex-start;
 }
-.heading{
+.heading {
   padding-top: 8px;
   padding-bottom: 8px;
   color: $headingColor;
-
 }
-.divider{
+.divider {
   border: solid gray 1px;
   margin-bottom: 8px;
-
 }
 ul {
   text-decoration: none;
@@ -55,11 +66,15 @@ ul {
 }
 
 li {
-  padding-top: 3px;
-  padding-bottom: 3px;
-  padding-left: 10px;
+  padding:10px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  width: fit-content;
+  background-color:#e6f4ff;
+  color: #1677ff;
+  text-decoration: none;
 }
-.li :hover{
+.li :hover {
   color: rgb(51, 141, 237);
 }
 .btnExample1,
@@ -70,19 +85,34 @@ li {
 .btnExample6,
 .btnExample7,
 .btnExample8,
-.btnExample9  {
-  border: solid gray 1px;
-  padding: 15px;
-  margin: 10px;
-  height: fit-content;
+.btnExample9 {
+  @include divStyle();
 }
 
 .iconExample1,
 .iconExample2,
-.iconExample3  {
-  border: solid gray 1px;
-  padding: 15px;
-  margin: 10px;
-  height: fit-content;
+.iconExample3 {
+  @include divStyle();
 }
 
+.typoContainer{
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.para-graph{
+  width: 300px;
+  text-align: center;
+}
+.slider{
+  width: 800px;
+  text-align: center;
+  font-family: $fontSecondary;
+  // font-size: $fontSize
+}
+.typographyExample1,
+.typographyExample2,
+.typographyExample3 {
+  @include divStyle();
+ 
+}
