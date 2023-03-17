@@ -142,19 +142,24 @@ li {
   overflow-y: auto;
 }
 
-
+// .gridDiv{
+//   display: flex;
+//   flex-wrap: wrap
+// }
 
 .gridExample1,
 .gridExample2,
 .gridExample3,
-.gridExample4 {
+.gridExample4,
+.gridExample5,
+.gridExample6 {
   @include divStyle();
-  width: fit-content !important;
+  // width: fit-content !important;
   text-align: center;
 }
 .bg-blue {
   background-color: #1677ff;
-  margin: 10px;
+  margin: 12px;
   padding: 10px;
   width: 1000px;
   // justify-content: center;
@@ -164,12 +169,26 @@ li {
 }
 .bg-blue1{
   background-color: #629ff4;
-  margin: 10px;
+  margin: 12px;
   padding: 10px;
   width: 1000px;
   // justify-content: center;
   text-align: center;
   // color: white;
+}
+
+.bg-green{
+  background-color: green;
+  margin: 12px;
+  padding: 10px;
+  // width: 500px;
+}
+.bg-green1{
+  background-color: rgb(134, 227, 134);
+  margin: 12px;
+  padding: 10px;
+  // width: 500px;
+
 }
 
 

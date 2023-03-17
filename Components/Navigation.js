@@ -1,6 +1,7 @@
 import Link from 'next/link';
 
 import { Divider } from 'antd';
+
 const Navigation = () => {
   return <>
     <div className="navContainer">
