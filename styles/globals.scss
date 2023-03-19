@@ -290,3 +290,21 @@ li {
   width: 400px !important;
   height: 200px !important;
 }
+
+.breadCrumbContainer{
+  display: flex;
+  // flex-direction: column;
+  margin: 20px;
+  flex-wrap: wrap;
+}
+
+.breadcrumbExample1,
+.breadCrumbExample2,
+.breadCrumbExample3,
+.breadCrumbExample4{
+  @include divStyle()
+}
+
+// .breadcrumbExample1{
+//   width: 100vw !important;
+// }
