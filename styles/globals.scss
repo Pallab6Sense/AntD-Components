@@ -165,9 +165,8 @@ li {
   // justify-content: center;
   text-align: center;
   // color: white;
-
 }
-.bg-blue1{
+.bg-blue1 {
   background-color: #629ff4;
   margin: 12px;
   padding: 10px;
@@ -177,21 +176,20 @@ li {
   // color: white;
 }
 
-.bg-green{
+.bg-green {
   background-color: green;
   margin: 12px;
   padding: 10px;
   // width: 500px;
 }
-.bg-green1{
+.bg-green1 {
   background-color: rgb(134, 227, 134);
   margin: 12px;
   padding: 10px;
   // width: 500px;
-
 }
-.layout-container{
-  display:flex;
+.layout-container {
+  display: flex;
   flex-direction: column;
   width: 1200px;
   // padding: 20px;
@@ -213,4 +211,52 @@ li {
   margin: 16px 0 16px 24px;
 }
 
+.space-container {
+  display: flex;
+  // flex-direction: column;
+  margin: 20px;
+  flex-wrap: wrap;
+}
+.spaceExample1,
+.spaceExample2,
+.spaceExample3,
+.spaceExample4,
+.spaceExample5,
+.spaceExample6,
+.spaceExample7,
+.spaceExample8,
+.spaceExample9 {
+  @include divStyle();
+  height: 300px !important;
+  overflow-y: auto;
+}
+.spaceExample6 {
+  height: fit-content !important;
+}
 
+.spaceExample2 {
+  width: 450px !important;
+  // height: ;
+}
+.spaceExample7,
+.spaceExample8,
+.spaceExample9 {
+  height: fit-content !important;
+}
+
+.space-align-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+.space-align-block {
+  flex: none;
+  margin: 8px 4px;
+  padding: 4px;
+  border: 1px solid #40a9ff;
+}
+.space-align-block .mock-block {
+  display: inline-block;
+  padding: 32px 8px 16px;
+  background: rgba(150, 150, 150, 0.2);
+}
