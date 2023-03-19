@@ -42,6 +42,30 @@ const Navigation = () => {
           </li>
         </div>
 
+        <div className="layout">
+        <p className="heading">Navigation</p>
+          {/* <div className="divider"></div> */}
+          <Divider></Divider>
+          <li>
+            <Link href="/anchor">Anchor</Link>
+          </li>
+          <li>
+            <Link href="/breadcrumb">Breadcrumb</Link>
+          </li>
+          <li>
+            <Link href="/dropdown">Dropdown</Link>
+          </li>
+          <li>
+            <Link href="/menu">Menu</Link>
+          </li>
+          <li>
+            <Link href="/pagination">Pagination</Link>
+          </li>
+          <li>
+            <Link href="/steps">Steps</Link>
+          </li>
+        </div>
+
       </ul>
     </div>
   </>;

@@ -260,3 +260,33 @@ li {
   padding: 32px 8px 16px;
   background: rgba(150, 150, 150, 0.2);
 }
+
+.anchorDiv {
+  display: flex;
+  // flex-direction: column;
+  margin: 20px;
+  flex-wrap: wrap;
+}
+
+.anchorExample1,
+.anchorExample2,
+.anchorExample3 {
+  @include divStyle();
+}
+
+.anchorExample1 {
+  height: 400px !important;
+  width: 300px !important;
+  padding-bottom: 20px;
+  overflow-y: auto;
+}
+
+.anchorExample2 {
+  height: 400px !important;
+  overflow-y: auto;
+}
+
+.anchorExample3 {
+  width: 400px !important;
+  height: 200px !important;
+}
