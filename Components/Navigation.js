@@ -91,6 +91,9 @@ const Navigation = () => {
           <li>
             <Link href="/radio">Radio</Link>
           </li>
+          <li>
+            <Link href="/rate">Rate</Link>
+          </li>
         </div>
 
       </ul>

@@ -495,3 +495,13 @@ li {
 .radioExample7{
   width: 400px !important;
 }
+
+.rateContainer{
+  @include componentContainer()
+}
+
+.rateExample1,
+.rateExample2,
+.rateExample3{
+  @include divStyle()
+}
