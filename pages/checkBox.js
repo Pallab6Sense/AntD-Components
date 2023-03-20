@@ -1,5 +1,5 @@
 import Navigation from '@/Components/Navigation';
-import { Checkbox, Button,Row,Col } from 'antd';
+import { Checkbox, Button, Row, Col } from 'antd';
 import { useState } from 'react';
 const onChange = (e) => {
   console.log(`checked = ${e.target.checked}`);
@@ -125,30 +125,30 @@ export default function CheckBox() {
           </div>
 
           <div className="checkBoxExample5">
-          <Checkbox.Group
-    style={{
-      width: '100%',
-    }}
-    // onChange={onChange}
-  >
-    <Row>
-      <Col span={8}>
-        <Checkbox value="A">A</Checkbox>
-      </Col>
-      <Col span={8}>
-        <Checkbox value="B">B</Checkbox>
-      </Col>
-      <Col span={8}>
-        <Checkbox value="C">C</Checkbox>
-      </Col>
-      <Col span={8}>
-        <Checkbox value="D">D</Checkbox>
-      </Col>
-      <Col span={8}>
-        <Checkbox value="E">E</Checkbox>
-      </Col>
-    </Row>
-  </Checkbox.Group>
+            <Checkbox.Group
+              style={{
+                width: '100%',
+              }}
+              // onChange={onChange}
+            >
+              <Row>
+                <Col span={8}>
+                  <Checkbox value="A">A</Checkbox>
+                </Col>
+                <Col span={8}>
+                  <Checkbox value="B">B</Checkbox>
+                </Col>
+                <Col span={8}>
+                  <Checkbox value="C">C</Checkbox>
+                </Col>
+                <Col span={8}>
+                  <Checkbox value="D">D</Checkbox>
+                </Col>
+                <Col span={8}>
+                  <Checkbox value="E">E</Checkbox>
+                </Col>
+              </Row>
+            </Checkbox.Group>
           </div>
         </div>
       </div>
