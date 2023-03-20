@@ -14,6 +14,12 @@ $bgColor: white;
   border-radius: 10px;
 }
 
+@mixin componentContainer{
+  display: flex;
+  margin: 20px;
+  flex-wrap: wrap;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -392,4 +398,20 @@ li {
 .autoCompleteExample2,
 .autoCOmpleteExample3{
   @include divStyle()
+}
+
+.cascaderContainer{
+  @include componentContainer()
+}
+
+.cascaderExample1,
+.cascaderExample2,
+.cascaderExample3,
+.cascaderExample4,
+.cascaderExample5{
+  @include divStyle()
+}
+
+.cascaderExample3{
+  width: 300px !important;
 }
