@@ -380,3 +380,16 @@ li {
 .stepsExample4{
   @include divStyle()
 }
+
+.autoCompleteContainer{
+  display: flex;
+  // flex-direction: column;
+  margin: 20px;
+  flex-wrap: wrap;
+}
+
+.autoCompleteExample1,
+.autoCompleteExample2,
+.autoCOmpleteExample3{
+  @include divStyle()
+}

@@ -66,6 +66,15 @@ const Navigation = () => {
           </li>
         </div>
 
+        <div className="dataEntry">
+        <p className="heading">Navigation</p>
+          {/* <div className="divider"></div> */}
+          <Divider></Divider>
+          <li>
+            <Link href="/autoComplete">AutoComplete</Link>
+          </li>
+        </div>
+
       </ul>
     </div>
   </>;
