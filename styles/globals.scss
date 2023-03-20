@@ -367,3 +367,16 @@ li {
 .paginationExample1{
   display: flex;
 }
+
+.stepsContainer{
+  display: flex;
+  // flex-direction: column;
+  margin: 20px;
+  flex-wrap: wrap;
+}
+.stepsExample1,
+.stepsExample2,
+.stepsExample3,
+.stepsExample4{
+  @include divStyle()
+}
