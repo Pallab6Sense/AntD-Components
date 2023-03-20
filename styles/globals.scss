@@ -329,3 +329,24 @@ li {
   // width: 200px !important;
   display: flex;
 }
+
+.menuContainer{
+  display: flex;
+  // flex-direction: column;
+  margin: 20px;
+  flex-wrap: wrap;
+}
+
+.menuExample1,
+.menuExample2,
+.menuExample3,
+.menuExample4,
+.menuExample5{
+  @include divStyle();
+  height:300px !important;
+  overflow-y: auto;
+}
+
+.menuExample2{
+  width: 500px;
+}
