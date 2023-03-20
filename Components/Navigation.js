@@ -82,6 +82,9 @@ const Navigation = () => {
           <li>
             <Link href="/datePicker">DatePicker</Link>
           </li>
+          <li>
+            <Link href="/input">Input</Link>
+          </li>
         </div>
 
       </ul>

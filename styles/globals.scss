@@ -15,7 +15,7 @@ $bgColor: white;
 }
 
 @mixin componentContainer{
-  // display: flex;
+  display: flex;
   // margin: 20px;
   flex-wrap: wrap;
 }
@@ -444,5 +444,18 @@ li {
 .datePickerExample3,
 .datePickerExample4,
 .datePickerExample5{
+  @include divStyle()
+}
+
+.inputContainer{
+  @include componentContainer()
+}
+
+.inputExample1,
+.inputExample2,
+.inputExample3,
+.inputExample4,
+.inputExample5,
+.inputExample6{
   @include divStyle()
 }
