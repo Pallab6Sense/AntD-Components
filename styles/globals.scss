@@ -308,3 +308,24 @@ li {
 // .breadcrumbExample1{
 //   width: 100vw !important;
 // }
+
+.dropdownContainer{
+  display: flex;
+  // flex-direction: column;
+  margin: 20px;
+  flex-wrap: wrap;
+}
+
+.dropdownExample1,
+.dropdownExample2,
+.dropdownExample3,
+.dropdownExample4,
+.dropdownExample5{
+  @include divStyle()
+}
+
+.dropdownExample2{
+  height: 300px !important;
+  // width: 200px !important;
+  display: flex;
+}
