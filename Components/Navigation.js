@@ -76,6 +76,9 @@ const Navigation = () => {
           <li>
             <Link href="/cascader">Cascader</Link>
           </li>
+          <li>
+            <Link href="/checkBox">CheckBox</Link>
+          </li>
         </div>
 
       </ul>

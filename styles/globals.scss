@@ -415,3 +415,15 @@ li {
 .cascaderExample3{
   width: 300px !important;
 }
+
+.checkBoxContainer{
+  @include componentContainer()
+}
+
+.checkBoxExample1,
+.checkBoxExample2,
+.checkBoxExample3,
+.checkBoxExample4,
+.checkBoxExample5{
+  @include divStyle()
+}
