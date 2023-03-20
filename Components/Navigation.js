@@ -79,6 +79,9 @@ const Navigation = () => {
           <li>
             <Link href="/checkBox">CheckBox</Link>
           </li>
+          <li>
+            <Link href="/datePicker">DatePicker</Link>
+          </li>
         </div>
 
       </ul>
