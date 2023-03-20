@@ -350,3 +350,20 @@ li {
 .menuExample2{
   width: 500px;
 }
+
+.paginationContainer{
+  display: flex;
+  // flex-direction: column;
+  margin: 20px;
+  flex-wrap: wrap;
+}
+
+.paginationExample1,
+.paginationExample2,
+.paginationExample3{
+  @include divStyle();
+}
+
+.paginationExample1{
+  display: flex;
+}
