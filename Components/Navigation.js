@@ -85,6 +85,9 @@ const Navigation = () => {
           <li>
             <Link href="/input">Input</Link>
           </li>
+          <li>
+            <Link href="/mentions">Mentions</Link>
+          </li>
         </div>
 
       </ul>

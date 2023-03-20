@@ -459,3 +459,20 @@ li {
 .inputExample6{
   @include divStyle()
 }
+
+.mentionsContainer{
+  @include componentContainer()
+}
+
+.mentionsExample1,
+.mentionsExample2,
+.mentionsExample3,
+.mentionsExample4,
+.mentionsExample5{
+  @include divStyle()
+}
+
+.mentionsExample3{
+  height: 200px !important;
+  // hei: 200px;
+}
