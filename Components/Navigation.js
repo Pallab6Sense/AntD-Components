@@ -88,6 +88,9 @@ const Navigation = () => {
           <li>
             <Link href="/mentions">Mentions</Link>
           </li>
+          <li>
+            <Link href="/radio">Radio</Link>
+          </li>
         </div>
 
       </ul>

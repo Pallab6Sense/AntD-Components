@@ -476,3 +476,22 @@ li {
   height: 200px !important;
   // hei: 200px;
 }
+
+.radioContainer{
+  @include componentContainer();
+}
+
+.radioExample1,
+.radioExample2,
+.radioExample3,
+.radioExample4,
+.radioExample5,
+.radioExample6,
+.radioExample7{
+  @include divStyle()
+}
+
+.radioExample4,
+.radioExample7{
+  width: 400px !important;
+}
