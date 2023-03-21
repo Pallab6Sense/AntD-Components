@@ -828,3 +828,15 @@ li {
   @include divStyle()
 
 }
+
+.modalContainer{
+  @include componentContainer()
+
+}
+
+.modalExample1,
+.modalExample2,
+.modalExample3{
+  @include divStyle()
+
+}

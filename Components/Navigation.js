@@ -164,8 +164,13 @@ const Navigation = () => {
             <li>
               <Link href="/drawer">Drawer</Link>
             </li>
+
             <li>
               <Link href="/message">Message</Link>
+            </li>
+
+            <li>
+              <Link href="/modal">Modal</Link>
             </li>
 
           </div>
