@@ -872,3 +872,21 @@ li {
   @include divStyle();
   width:300px
 }
+.spinContainer{
+  @include componentContainer();
+}
+.spinExample1,
+.spinExample2,
+.spinExample3,
+.spinExample4{
+  @include divStyle()
+}
+.spinExample2{
+  height: 300px;
+  width: 400px;
+}
+.content {
+  padding: 50px;
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+}

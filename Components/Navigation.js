@@ -178,9 +178,15 @@ const Navigation = () => {
             <li>
               <Link href="/progress">Progress</Link>
             </li>
+
             <li>
               <Link href="/result">Result</Link>
             </li>
+
+            <li>
+              <Link href="/spin">Spin</Link>
+            </li>
+
           </div>
         </ul>
       </div>
