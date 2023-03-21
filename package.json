@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev":  "(if exist .next rd /s /q .next 2>nul) && next dev",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -18,5 +18,17 @@
   },
   "devDependencies": {
     "sass": "^1.59.3"
-  }
+  },
+  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "main": "next.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pallab6Sense/AntD-Components.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pallab6Sense/AntD-Components/issues"
+  },
+  "homepage": "https://github.com/Pallab6Sense/AntD-Components#readme"
 }
