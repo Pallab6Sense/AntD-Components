@@ -125,6 +125,10 @@ const Navigation = () => {
             <li>
               <Link href="/card">Card</Link>
             </li>
+            <li>
+              <Link href="/collapse">Collapse</Link>
+            </li>
+           
           </div>
         </ul>
       </div>

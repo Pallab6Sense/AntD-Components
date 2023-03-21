@@ -661,3 +661,16 @@ li {
 .cardExample2{
      background: rgb(207, 207, 207);
 }
+
+.collapseContainer{
+  @include componentContainer()
+}
+
+.collapseExample1,
+.collapseExample2,
+.collapseExample3,
+.collapseExample4,
+.collapseExample5{
+  @include divStyle();
+  width:400px !important;
+}
