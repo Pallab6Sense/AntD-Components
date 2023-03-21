@@ -817,5 +817,14 @@ li {
 .drawerExample2,
 .drawerExample3{
   @include divStyle()
+}
+
+.messageContainer{
+  @include componentContainer()
+}
+.messageExample1,
+.messageExample2,
+.messageExample3{
+  @include divStyle()
 
 }
