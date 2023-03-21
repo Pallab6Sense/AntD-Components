@@ -146,6 +146,9 @@ const Navigation = () => {
             <li>
               <Link href="/tag">Tag</Link>
             </li>
+            <li>
+              <Link href="/timeline">Timeline</Link>
+            </li>
            
           </div>
         </ul>

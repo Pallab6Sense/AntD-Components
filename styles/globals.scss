@@ -761,3 +761,14 @@ li {
 .tagExample3{
   width: 350px;
 }
+.timelineContainer{
+  @include componentContainer()
+
+}
+
+.timelineExample1,
+.timelineExample2,
+.timelineExample3{
+  @include divStyle()
+
+}
