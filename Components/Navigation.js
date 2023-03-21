@@ -196,6 +196,9 @@ const Navigation = () => {
             <li>
               <Link href="/affix">Affix</Link>
             </li>
+            <li>
+              <Link href="/app">App</Link>
+            </li>
           </div>
         </ul>
       </div>
