@@ -644,3 +644,20 @@ li {
 .calenderExample2{
    width: fit-content !important;
 }
+
+.cardContainer{
+  @include componentContainer()
+}
+
+.cardExample1,
+.cardExample2,
+.cardExample3,
+.cardExample4,
+.cardExample5,
+.cardExample6,
+.cardExample7{
+  @include divStyle();
+}
+.cardExample2{
+     background: rgb(207, 207, 207);
+}

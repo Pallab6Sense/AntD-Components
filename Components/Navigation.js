@@ -122,6 +122,9 @@ const Navigation = () => {
             <li>
               <Link href="/calender">Calender</Link>
             </li>
+            <li>
+              <Link href="/card">Card</Link>
+            </li>
           </div>
         </ul>
       </div>
