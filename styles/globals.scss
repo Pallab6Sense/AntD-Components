@@ -848,3 +848,16 @@ li {
 {
   @include divStyle()
 }
+.progressContainer{
+  @include componentContainer()
+
+}
+
+.progressExample1,
+.progressExample2,
+.progressExample3,
+.progressExample4,
+.progressExample5{
+  @include divStyle()
+
+}

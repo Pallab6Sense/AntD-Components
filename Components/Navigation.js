@@ -175,6 +175,9 @@ const Navigation = () => {
             <li>
               <Link href="/popconfirm">Popconfirm</Link>
             </li>
+            <li>
+              <Link href="/progress">Progress</Link>
+            </li>
           </div>
         </ul>
       </div>
