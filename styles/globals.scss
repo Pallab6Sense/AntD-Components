@@ -859,5 +859,16 @@ li {
 .progressExample4,
 .progressExample5{
   @include divStyle()
+}
 
+.resultContainer{
+  @include componentContainer()
+
+}
+.resultExample1,
+.resultExample2,
+.resultExample3,
+.resultExample4{
+  @include divStyle();
+  width:300px
 }
