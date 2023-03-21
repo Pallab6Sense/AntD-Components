@@ -718,3 +718,14 @@ li {
   margin-left: 8px;
   margin-right: 0;
 }
+
+.qrcodeContainer{
+  @include componentContainer()
+}
+
+.qrcodeExample1,
+.qrcodeExample2,
+.qrcodeExample3,
+.qrcodeExample4{
+  @include divStyle()
+}

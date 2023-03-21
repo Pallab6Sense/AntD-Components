@@ -137,6 +137,9 @@ const Navigation = () => {
             <li>
               <Link href="/popover">Popover</Link>
             </li>
+            <li>
+              <Link href="/qrcode">Qrcode</Link>
+            </li>
            
           </div>
         </ul>
