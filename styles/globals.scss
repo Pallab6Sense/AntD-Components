@@ -840,3 +840,11 @@ li {
   @include divStyle()
 
 }
+
+.popconfirmContainer{
+  @include componentContainer()
+}
+.popconfirmExample1,.popconfirmExample2,.popconfirmExample3
+{
+  @include divStyle()
+}
