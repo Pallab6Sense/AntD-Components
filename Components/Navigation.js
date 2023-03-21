@@ -199,6 +199,9 @@ const Navigation = () => {
             <li>
               <Link href="/app">App</Link>
             </li>
+            <li>
+              <Link href="/floatbutton">FloatButton</Link>
+            </li>
           </div>
         </ul>
       </div>

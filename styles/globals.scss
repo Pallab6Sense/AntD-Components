@@ -920,3 +920,8 @@ li {
 .appExample1{
   @include divStyle()
 }
+
+.floatButtonContainer{
+  @include componentContainer()
+}
+
