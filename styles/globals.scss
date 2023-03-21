@@ -674,3 +674,14 @@ li {
   @include divStyle();
   width:400px !important;
 }
+
+.emptyContainer{
+  @include componentContainer()
+}
+
+.emptyExample1,
+.emptyExample2,
+.emptyExample3,
+.emptyExample4{
+  @include divStyle()
+}

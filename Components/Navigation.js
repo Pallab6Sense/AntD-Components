@@ -128,6 +128,9 @@ const Navigation = () => {
             <li>
               <Link href="/collapse">Collapse</Link>
             </li>
+            <li>
+              <Link href="/empty">Empty</Link>
+            </li>
            
           </div>
         </ul>
