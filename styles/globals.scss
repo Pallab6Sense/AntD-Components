@@ -685,3 +685,13 @@ li {
 .emptyExample4{
   @include divStyle()
 }
+
+.imageContainer{
+  @include componentContainer()
+}
+.imageExample1,
+.imageExample2,
+.imageExample3,
+.imageExample4{
+  @include divStyle()
+}

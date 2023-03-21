@@ -131,6 +131,9 @@ const Navigation = () => {
             <li>
               <Link href="/empty">Empty</Link>
             </li>
+            <li>
+              <Link href="/image">Image</Link>
+            </li>
            
           </div>
         </ul>
