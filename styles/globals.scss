@@ -695,3 +695,26 @@ li {
 .imageExample4{
   @include divStyle()
 }
+.popoverContainer{
+  @include componentContainer()
+}
+
+.popoverExample1,
+.popoverExample2,
+.popoverExample3,
+.popoverExample4,
+.popoverExample5{
+  @include divStyle()
+}
+#components-popover-demo-placement .ant-btn {
+  margin-left: 0;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  width: 70px;
+  text-align: center;
+  padding: 0;
+}
+#components-popover-demo-placement .ant-btn {
+  margin-left: 8px;
+  margin-right: 0;
+}

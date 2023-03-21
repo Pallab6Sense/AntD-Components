@@ -134,6 +134,9 @@ const Navigation = () => {
             <li>
               <Link href="/image">Image</Link>
             </li>
+            <li>
+              <Link href="/popover">Popover</Link>
+            </li>
            
           </div>
         </ul>
