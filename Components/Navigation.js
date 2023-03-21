@@ -188,6 +188,15 @@ const Navigation = () => {
             </li>
 
           </div>
+
+          <div className="other">
+          <p className="heading">Other</p>
+
+            <Divider></Divider>
+            <li>
+              <Link href="/affix">Affix</Link>
+            </li>
+          </div>
         </ul>
       </div>
     </>

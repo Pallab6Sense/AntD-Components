@@ -890,3 +890,26 @@ li {
   background: rgba(0, 0, 0, 0.05);
   border-radius: 4px;
 }
+
+.affixContainer{
+  @include componentContainer()
+}
+.affixExample1,
+.affixExample2,
+.affixExample3{
+  @include divStyle()
+}
+
+.affixExample2{
+  height: 150px;
+}
+
+#components-affix-demo-target .scrollable-container {
+  height: 100px;
+  overflow-y: scroll;
+}
+#components-affix-demo-target .background {
+  padding-top: 60px;
+  height: 300px;
+  background-image: url('https://zos.alipayobjects.com/rmsportal/RmjwQiJorKyobvI.jpg');
+}
