@@ -202,6 +202,9 @@ const Navigation = () => {
             <li>
               <Link href="/floatbutton">FloatButton</Link>
             </li>
+            <li>
+              <Link href="/watermark">WaterMark</Link>
+            </li>
           </div>
         </ul>
       </div>

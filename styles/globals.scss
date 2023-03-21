@@ -924,4 +924,16 @@ li {
 .floatButtonContainer{
   @include componentContainer()
 }
+.watermarkContainer{
+  @include componentContainer()
+
+}
+.watermarkExample1,
+.watermarkExample2,
+.watermarkExample3{
+  @include divStyle();
+  width: 425px;
+
+
+}
 
