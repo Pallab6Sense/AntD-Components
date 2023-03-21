@@ -12,8 +12,8 @@ $bgColor: white;
   height: fit-content;
   width: fit-content;
   border-radius: 10px;
-  display: flex;
-  flex-direction: column;
+  // display: flex;
+  // flex-direction: column;
 }
 
 @mixin componentContainer{
@@ -524,4 +524,28 @@ li {
 
 .selectExample6{
   width: 200px;
+}
+
+.sliderContainer{
+  @include componentContainer()
+}
+
+.sliderExample1,
+.sliderExample2,
+.sliderExample3,
+.sliderExample4,
+.sliderExample5{
+  @include divStyle()
+}
+
+.sliderExample1,
+.sliderExample2,
+.sliderExample3,
+.sliderExample5,
+.sliderExample4{
+  width: 300px;
+}
+
+.sliderExample4{
+  width: 400px !important;
 }
