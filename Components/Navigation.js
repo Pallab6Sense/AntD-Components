@@ -152,14 +152,16 @@ const Navigation = () => {
             <li>
               <Link href="/tooltip">Tooltip</Link>
             </li>
-           
           </div>
 
           <div className="feedback">
-          <p className="heading">Feedback</p>
-          <Divider></Divider>
-          <li>
+            <p className="heading">Feedback</p>
+            <Divider></Divider>
+            <li>
               <Link href="/alert">Alert</Link>
+            </li>
+            <li>
+              <Link href="/drawer">Drawer</Link>
             </li>
           </div>
         </ul>

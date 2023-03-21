@@ -807,3 +807,15 @@ li {
 .alertExample5{
   width: 400px;
 }
+
+.drawerContainer{
+  @include componentContainer()
+
+}
+
+.drawerExample1,
+.drawerExample2,
+.drawerExample3{
+  @include divStyle()
+
+}
