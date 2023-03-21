@@ -108,6 +108,15 @@ const Navigation = () => {
           </li>
         </div>
 
+        <div className="dataDisplay">
+        <p className="heading">Navigation</p>
+          {/* <div className="divider"></div> */}
+          <Divider></Divider>
+          <li>
+            <Link href="/avatar">Avatar</Link>
+          </li>
+        </div>
+
       </ul>
     </div>
   </>;

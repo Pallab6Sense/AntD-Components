@@ -590,3 +590,15 @@ li {
 .ant-upload-rtl.upload-list-inline .ant-upload-list-item {
   float: right;
 }
+
+.avatarContainer{
+  @include componentContainer()
+}
+
+.avatarExample1,
+.avatarExample2,
+.avatarExample3,
+.avatarExample4,
+.avatarExample5{
+  @include divStyle()
+}
