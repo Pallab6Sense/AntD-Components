@@ -119,6 +119,9 @@ const Navigation = () => {
             <li>
               <Link href="/badge">Badge</Link>
             </li>
+            <li>
+              <Link href="/calender">Calender</Link>
+            </li>
           </div>
         </ul>
       </div>

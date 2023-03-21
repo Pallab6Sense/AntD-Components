@@ -630,3 +630,17 @@ li {
   height: 400px;
   overflow-y: auto;
 }
+
+.calenderContainer{
+  @include componentContainer()
+}
+
+.calenderExample1,
+.calenderExample2,
+.calenderExample3{
+  @include divStyle();
+  width: 900px !important;
+}
+.calenderExample2{
+   width: fit-content !important;
+}
