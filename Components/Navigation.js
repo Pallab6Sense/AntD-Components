@@ -140,6 +140,9 @@ const Navigation = () => {
             <li>
               <Link href="/qrcode">Qrcode</Link>
             </li>
+            <li>
+              <Link href="/statistics">Statistics</Link>
+            </li>
            
           </div>
         </ul>

@@ -729,3 +729,16 @@ li {
 .qrcodeExample4{
   @include divStyle()
 }
+
+.statisticsContainer{
+  @include componentContainer()
+
+}
+
+.statisticsExample1,
+.statisticsExample2,
+.statisticsExample3,
+.statisticsExample4{
+  @include divStyle()
+
+}
