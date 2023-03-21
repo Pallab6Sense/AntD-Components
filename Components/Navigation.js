@@ -103,6 +103,9 @@ const Navigation = () => {
           <li>
             <Link href="/switch">Switch</Link>
           </li>
+          <li>
+            <Link href="/upload">Upload</Link>
+          </li>
         </div>
 
       </ul>

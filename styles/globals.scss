@@ -569,3 +569,24 @@ li {
   height: 100px;
   width: 100px;
 }
+
+.uploadContainer{
+  @include componentContainer()
+}
+
+.uploadExample1,
+.uploadExample2,
+.uploadExample3,
+.uploadExample4{
+  @include divStyle()
+}
+
+.upload-list-inline .ant-upload-list-item {
+  float: left;
+  width: 200px;
+  margin-inline-end: 8px;
+}
+
+.ant-upload-rtl.upload-list-inline .ant-upload-list-item {
+  float: right;
+}
