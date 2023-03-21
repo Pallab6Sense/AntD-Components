@@ -154,6 +154,14 @@ const Navigation = () => {
             </li>
            
           </div>
+
+          <div className="feedback">
+          <p className="heading">Feedback</p>
+          <Divider></Divider>
+          <li>
+              <Link href="/alert">Alert</Link>
+            </li>
+          </div>
         </ul>
       </div>
     </>

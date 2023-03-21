@@ -787,3 +787,23 @@ li {
 .tooltipExample3{
   width: 600px;
 }
+
+.alertContainer{
+  @include componentContainer()
+
+}
+
+.alertExample1,
+.alertExample2,
+.alertExample3,
+.alertExample4,
+.alertExample5,
+.alertExample6{
+  @include divStyle()
+
+}
+
+.alertExample3,
+.alertExample5{
+  width: 400px;
+}
