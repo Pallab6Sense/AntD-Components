@@ -100,6 +100,9 @@ const Navigation = () => {
           <li>
             <Link href="/slider">Slider</Link>
           </li>
+          <li>
+            <Link href="/switch">Switch</Link>
+          </li>
         </div>
 
       </ul>

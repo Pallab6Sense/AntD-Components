@@ -549,3 +549,23 @@ li {
 .sliderExample4{
   width: 400px !important;
 }
+
+.switchContainer{
+  @include componentContainer()
+}
+
+.switchExample1,
+.switchExample2,
+.switchExample3,
+.switchExample4,
+.switchExample5{
+  @include divStyle()
+}
+
+.switchExample1{
+  width: 200px;
+}
+.switchExample3{
+  height: 100px;
+  width: 100px;
+}
