@@ -149,6 +149,9 @@ const Navigation = () => {
             <li>
               <Link href="/timeline">Timeline</Link>
             </li>
+            <li>
+              <Link href="/tooltip">Tooltip</Link>
+            </li>
            
           </div>
         </ul>

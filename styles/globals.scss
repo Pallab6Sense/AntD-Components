@@ -772,3 +772,18 @@ li {
   @include divStyle()
 
 }
+
+.tooltipContainer{
+  @include componentContainer()
+
+}
+
+.tooltipExample1,
+.tooltipExample2,
+.tooltipExample3{
+  @include divStyle()
+
+}
+.tooltipExample3{
+  width: 600px;
+}
