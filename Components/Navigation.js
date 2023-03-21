@@ -94,6 +94,9 @@ const Navigation = () => {
           <li>
             <Link href="/rate">Rate</Link>
           </li>
+          <li>
+            <Link href="/select">Select</Link>
+          </li>
         </div>
 
       </ul>

@@ -507,3 +507,21 @@ li {
 .rateExample3{
   @include divStyle()
 }
+
+.selectContainer{
+  @include componentContainer()
+}
+
+.selectExample1,
+.selectExample2,
+.selectExample3,
+.selectExample4,
+.selectExample5,
+.selectExample6,
+.selectExample7{
+  @include divStyle()
+}
+
+.selectExample6{
+  width: 200px;
+}
