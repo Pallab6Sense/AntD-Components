@@ -746,3 +746,18 @@ li {
 .statisticsExample4{
   width: 400px;
 }
+
+.tagContainer{
+  @include componentContainer()
+  
+}
+
+.tagExample1,
+.tagExample2,
+.tagExample3{
+  @include divStyle()
+}
+
+.tagExample3{
+  width: 350px;
+}

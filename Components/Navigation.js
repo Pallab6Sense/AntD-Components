@@ -143,6 +143,9 @@ const Navigation = () => {
             <li>
               <Link href="/statistics">Statistics</Link>
             </li>
+            <li>
+              <Link href="/tag">Tag</Link>
+            </li>
            
           </div>
         </ul>
