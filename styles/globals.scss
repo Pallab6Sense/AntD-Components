@@ -44,6 +44,7 @@ $bgColor: white;
   justify-content: flex-start;
   flex-direction: column;
   padding-right: 20px;
+  padding-bottom: 20px;
   // width: 550px;
 
   //  margin-left: 20px;
@@ -601,4 +602,31 @@ li {
 .avatarExample4,
 .avatarExample5{
   @include divStyle()
+}
+
+.badgeContainer{
+  // @include componentContainer()
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto;
+}
+
+.badgeExample1,
+.badgeExample2,
+.badgeExample3,
+.badgeExample4,
+.badgeExample5,
+.badgeExample6,
+.badgeExample7,
+.badgeExample8{
+  @include divStyle()
+}
+
+.badgeExample2{
+  width: 300px;
+}
+
+.badgeExample5{
+  width: 300px;
+  height: 400px;
+  overflow-y: auto;
 }
