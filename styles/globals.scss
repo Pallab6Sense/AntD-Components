@@ -12,6 +12,10 @@ $bgColor: white;
   height: fit-content;
   width: fit-content;
   border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: center;
   // display: flex;
   // flex-direction: column;
 }
@@ -20,6 +24,8 @@ $bgColor: white;
   display: flex;
   // margin: 20px;
   flex-wrap: wrap;
+  align-content: flex-start;
+  // justify-content: center;
 }
 
 * {
@@ -50,8 +56,9 @@ $bgColor: white;
   //  margin-left: 20px;
 }
 .btn {
-  display: flex;
-  flex-wrap: wrap;
+  @include divStyle();
+  border: solid gray 0px;
+
 }
 .general {
   display: flex;
@@ -221,10 +228,8 @@ li {
 }
 
 .space-container {
-  display: flex;
-  // flex-direction: column;
-  margin: 20px;
-  flex-wrap: wrap;
+  @include componentContainer()
+
 }
 .spaceExample1,
 .spaceExample2,
@@ -319,10 +324,7 @@ li {
 // }
 
 .dropdownContainer{
-  display: flex;
-  // flex-direction: column;
-  margin: 20px;
-  flex-wrap: wrap;
+ @include componentContainer()
 }
 
 .dropdownExample1,
@@ -340,10 +342,7 @@ li {
 }
 
 .menuContainer{
-  display: flex;
-  // flex-direction: column;
-  margin: 20px;
-  flex-wrap: wrap;
+@include componentContainer()
 }
 
 .menuExample1,
@@ -361,10 +360,7 @@ li {
 }
 
 .paginationContainer{
-  display: flex;
-  // flex-direction: column;
-  margin: 20px;
-  flex-wrap: wrap;
+  @include componentContainer()
 }
 
 .paginationExample1,
